@@ -51,3 +51,22 @@ const hiddenNav = document.querySelectorAll(".hidden-nav");
 hiddenNav.forEach((nav) => nav.classList.add("show-element"));
 
 revealElement(hiddenElements);
+
+/* NAV - scroll position*/
+
+const sections = document.querySelectorAll("section");
+const navElements = document.querySelectorAll("nav a");
+
+window.addEventListener("scroll", function () {
+  sections.forEach(function (section, i) {
+    const sectionTop = section.offsetTop;
+    const sectionBottom = sectionTop + section.clientHeight;
+    const middleViewport = window.scrollY + window.innerHeight / 2;
+
+    if (sectionTop < middleViewport && sectionBottom > middleViewport) {
+      navElements[i].classList.add("nav-active");
+    } else {
+      navElements[i].classList.remove("nav-active");
+    }
+  });
+});

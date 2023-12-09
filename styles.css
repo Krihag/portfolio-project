@@ -49,7 +49,6 @@ a {
   text-decoration: none;
   color: var(--normal-text);
 }
-
 button {
   border: none;
   font-size: 1.1rem;
@@ -68,7 +67,11 @@ h1,
 h2,
 h3,
 h4,
-a {
+a,
+p,
+input,
+textarea,
+footer {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -392,12 +395,12 @@ footer {
 }
 
 /* Hidden nav elements */
-.hidden-nav {
+/* .hidden-nav {
   opacity: 0;
   filter: blur(5px);
   transition: all 1.2s;
   transform: translateY(200%);
-}
+} */
 /* HIDE / REVEAL ELEMENTS */
 /* HIDE / SHOW ELEMENTS */
 
@@ -443,7 +446,7 @@ footer {
 .color-wheel {
   transition-delay: 1000ms;
 }
-
+/* 
 .sidebar-nav-container nav a:first-child {
   transition-delay: 1200ms;
 }
@@ -452,7 +455,7 @@ footer {
 }
 .sidebar-nav-container nav a:nth-child(3) {
   transition-delay: 1400ms;
-}
+} */
 
 .portfolio-img {
   transition-delay: 200ms;
@@ -461,7 +464,7 @@ footer {
   transition-delay: 300ms;
 }
 
-.project-details p {
+.project-details {
   transition-delay: 400ms;
 }
 
