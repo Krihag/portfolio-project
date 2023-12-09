@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Kristian Hagesæter</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5b97174c12.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="js/script.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hamburger-menu">
+      <i class="fa-solid fa-bars open-hamburger"></i>
+      <i class="fa-solid fa-xmark close-hamburger hide-hamburger-icon"></i>
+    </div>
+    <aside class="sidebar-nav-container" aria-label="page navigation">
+      <div class="color-wheel-container">
+        <div class="color-wheel hidden-nav">
+          Color wheel: <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="wheel-hidden-colors hidden-ele">
+          <p class="highlight-text">Header color:</p>
+          <div class="wheel-all-colors">
+            <div
+              class="wheel-color-pick wheel-color-1"
+              data-color="#e19148"
+            ></div>
+            <div class="wheel-color-pick wheel-color-2" data-color="#fff"></div>
+            <div
+              class="wheel-color-pick wheel-color-3"
+              data-color="#eb7ab9"
+            ></div>
+            <div
+              class="wheel-color-pick wheel-color-4"
+              data-color="#f6e762"
+            ></div>
+            <div
+              class="wheel-color-pick wheel-color-5"
+              data-color="#7bda60"
+            ></div>
+          </div>
+          <p class="highlight-text-2">Highlight Color:</p>
+          <div class="wheel-all-colors-2">
+            <div
+              class="wheel-color-pick-2 wheel-color-1"
+              data-color="#e19148"
+            ></div>
+            <div
+              class="wheel-color-pick-2 wheel-color-2"
+              data-color="#fff"
+            ></div>
+            <div
+              class="wheel-color-pick-2 wheel-color-3"
+              data-color="#eb7ab9"
+            ></div>
+            <div
+              class="wheel-color-pick-2 wheel-color-4"
+              data-color="#f6e762"
+            ></div>
+            <div
+              class="wheel-color-pick-2 wheel-color-5"
+              data-color="#7bda60"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <a href="#" class="nav-active hidden-nav">Top of page</a>
+        <a href="#" class="hidden-nav">Projects</a>
+        <!-- <a href="#">About me</a> -->
+        <a href="#" class="hidden-nav">Contact</a>
+      </nav>
+    </aside>
+    <main>
+      <section id="top-of-page" class="intro-section section-container">
+        <div class="intro-text-name hide-element hide-right">
+          <p>Hello, 👋</p>
+          <h1>My name is <span class="highlight-text-2">Kristian</span></h1>
+        </div>
+        <div class="intro-text-study hide-element hide-right">
+          I'm studying
+          <span class="highlight-text"
+            >Frontend <br />
+            Development</span
+          >
+          at Noroff.
+        </div>
+        <a href="#portfolio" class="my-projects-btn hide-element hide-right"
+          >My projects ></a
+        >
+      </section>
+      <section id="portfolio" class="portfolio-section">
+        <article class="project-container section-container">
+          <h2 class="hide-element hide-left">
+            <span class="highlight-text">Project Exam 1</span> (1st year)
+          </h2>
+          <img
+            src="/img/universe-blog-project.jpg"
+            alt="Homepage of The Universe Blog"
+            class="portfolio-img hide-element hide-bottom"
+          />
+          <div class="project-details-and-info">
+            <div class="project-details hide-element hide-left">
+              <h3 class="highlight-text">The Universe Blog</h3>
+              <p>
+                For Project Exam 1 we were assigned to create a
+                <span class="highlight-text-2">blog website</span>
+                with certain criterias (for details checkout the read me file in
+                the Github repo). As long as the criterias were fulfilled the
+                theme of the blog could be anything. I picked
+                <span class="highlight-text-2">the universe</span> as my theme,
+                with focus on the
+                <span class="highlight-text-2">planets</span> and our
+                <span class="highlight-text-2">solar system</span>.
+              </p>
+              <p>
+                For more information on this project or to read the full brief
+                you can check out the
+                <span class="highlight-text-2">“read me”</span> file from my
+                <span class="highlight-text-2">Github</span> project folder.
+              </p>
+            </div>
+            <div class="project-info">
+              <div class="link-github hide-element hide-top">
+                <a
+                  aria-label="link to website"
+                  href="https://papaya-stardust-c4f705.netlify.app/"
+                  target="_blank"
+                >
+                  <div class="highlight-text-2">Visit Site</div>
+                  <i class="fa-solid fa-link"></i>
+                </a>
+                <a
+                  aria-label="link to github repo for this project"
+                  href="https://github.com/Noroff-FEU-Assignments/project-exam-1-Krihag"
+                  target="_blank"
+                  class="hide-element hide-top"
+                >
+                  <div class="highlight-text-2">Github</div>
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="project-languages hide-element hide-top">
+                <h4 class="highlight-text">Languages</h4>
+                <div class="languages-container hide-element hide-top">
+                  <img src="/img/logos/html-logo.png" alt="HTML logo" />
+                  <img src="/img/logos/css-logo.png" alt="CSS logo" />
+                  <img src="/img/logos/js-logo.png" alt="Javascript logo" />
+                </div>
+              </div>
+              <div class="project-cms hide-element hide-top">
+                <h4 class="highlight-text">CMS & Tools</h4>
+                <img src="/img/logos/strapi-logo.png" alt="Strapi Logo" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="project-container section-container">
+          <h2 class="hide-element hide-left">
+            <span class="highlight-text">Cross-Course Project</span> (1st year)
+          </h2>
+          <img
+            src="/img/gamehub-project.jpg"
+            alt="Homepage of Gamehub"
+            class="portfolio-img hide-element hide-bottom"
+          />
+          <div class="project-details-and-info">
+            <div class="project-details hide-element hide-left">
+              <h3 class="highlight-text">Gamehub</h3>
+              <p>
+                For the cross-course project we could pick between 3 different
+                briefs. I picked
+                <span class="highlight-text-2">Gamehub</span>, to design and
+                code an online video game store. This was our first big project
+                where we could use and implement
+                <span class="highlight-text-2">Javascript</span>.
+              </p>
+              <p>
+                For more information on this project or to read the full brief
+                you can check out the
+                <span class="highlight-text-2">“read me”</span> file from my
+                <span class="highlight-text-2">Github</span> project folder.
+              </p>
+            </div>
+            <div class="project-info">
+              <div class="link-github hide-element hide-top">
+                <a
+                  href="https://sunny-meerkat-8d9d3e.netlify.app/"
+                  target="_blank"
+                >
+                  <div class="highlight-text-2">Visit Site</div>
+                  <i class="fa-solid fa-link"></i>
+                </a>
+                <a
+                  href="https://github.com/Krihag/newGamehub3/tree/test"
+                  target="_blank"
+                >
+                  <div class="highlight-text-2">Github</div>
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="project-languages hide-element hide-top">
+                <h4 class="highlight-text">Languages</h4>
+                <div class="languages-container">
+                  <img src="/img/logos/html-logo.png" alt="HTML logo" />
+                  <img src="/img/logos/css-logo.png" alt="CSS logo" />
+                  <img src="/img/logos/js-logo.png" alt="Javascript logo" />
+                </div>
+              </div>
+              <div class="project-cms hide-element hide-top">
+                <h4 class="highlight-text">CMS & Tools</h4>
+                <img src="/img/logos/wordpress-logo.png" alt="Wordpress Logo" />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-container section-container">
+          <h2 class="hide-element hide-left">
+            <span class="highlight-text">Semester Project 1 </span> (1st
+            Semester)
+          </h2>
+          <img
+            src="/img/science-museum-project.jpg"
+            alt="Homepage of Gamehub"
+            class="portfolio-img hide-element hide-bottom"
+          />
+          <div class="project-details-and-info">
+            <div class="project-details hide-element hide-left">
+              <h3 class="highlight-text">Community Science Museum</h3>
+              <p>
+                For our first semester assignment we created a website for a
+                fictional
+                <span class="highlight-text-2">community science museum</span>.
+                The target audience was children aged 7-15 years. Since this was
+                our first semester assignment we were only allowed to use HTML
+                and CSS.
+
+                <span class="highlight-text-2"></span>
+              </p>
+              <p>
+                For more information on this project or to read the full brief
+                you can check out the
+                <span class="highlight-text-2">“read me”</span> file from my
+                <span class="highlight-text-2">Github</span> project folder.
+              </p>
+            </div>
+            <div class="project-info">
+              <div class="link-github hide-element hide-top">
+                <a
+                  href="https://creative-narwhal-e56398.netlify.app/"
+                  target="_blank"
+                >
+                  <div class="highlight-text-2">Visit Site</div>
+                  <i class="fa-solid fa-link"></i>
+                </a>
+                <a
+                  href="https://github.com/Krihag/Semester-Project-1"
+                  target="_blank"
+                >
+                  <div class="highlight-text-2">Github</div>
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="project-languages hide-element hide-top">
+                <h4 class="highlight-text">Languages</h4>
+                <div class="languages-container">
+                  <img src="/img/logos/html-logo.png" alt="HTML logo" />
+                  <img src="/img/logos/css-logo.png" alt="CSS logo" />
+                </div>
+              </div>
+              <div class="project-cms hide-element hide-top">
+                <h4 class="highlight-text">CMS & Tools</h4>
+                <div>None</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="contact-section section-container" id="contact">
+        <form>
+          <h2 class="highlight-text">Contact me</h2>
+          <input type="text" name="Name" placeholder="Your Name:" required />
+          <input type="email" name="email" placeholder="Your Email:" required />
+          <textarea
+            name="Message"
+            rows="6"
+            placeholder="Message:"
+            required
+          ></textarea>
+          <button class="contact-send highlight-text">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      Copyright 2023 <br />
+      Kristian Hagesæter
+    </footer>
+  </body>
+</html>
