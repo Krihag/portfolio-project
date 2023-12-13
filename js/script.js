@@ -34,7 +34,7 @@ hamburgerOpen.addEventListener("click", () => {
   hamburgerClose.classList.remove("hide-hamburger-icon");
 
   sidebar.style.transform = "translateX(0)";
-  hamburgerContainer.style.transform = "translateX(15rem)";
+  hamburgerContainer.style.transform = "translateX(17rem)";
 });
 
 hamburgerClose.addEventListener("click", () => {
