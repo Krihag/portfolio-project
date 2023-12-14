@@ -68,6 +68,7 @@ h2,
 h3,
 h4,
 a,
+div,
 p,
 input,
 textarea,
@@ -307,7 +308,12 @@ i {
 .link-github {
   display: flex;
   gap: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.project-info {
+  text-transform: uppercase;
 }
 .link-github a {
   display: flex;
@@ -341,14 +347,14 @@ i {
 /* CONTACT  */
 
 .contact-section form {
-  box-shadow: rgba(53, 53, 53, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(53, 53, 53, 0.24) 0px 3px 8px; */
   display: flex;
   flex-direction: column;
   max-width: 800px;
   margin: auto;
   gap: 2rem;
   padding: 2rem 4rem;
-  background: #010101;
+  /* background: #010101; */
   justify-content: center;
   height: 900px;
   border-radius: 0.5rem;
@@ -459,6 +465,8 @@ footer {
 
 .portfolio-img {
   transition-delay: 200ms;
+  border-radius: 1rem;
+  padding-top: 2rem;
 }
 .project-details h3 {
   transition-delay: 300ms;
